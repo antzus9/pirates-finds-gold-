@@ -302,7 +302,7 @@
   </div>
 </section>
 
-<!-- LEAD FORM -->
+<form action="https://formspree.io/f/xykapwjp" method="POST">
 <section class="form-section" id="get-quote">
   <div class="section-inner" style="text-align:center;">
     <p class="section-eyebrow">Free Quote — No Obligation</p>
@@ -317,21 +317,21 @@
         <div class="form-two">
           <div class="form-row">
             <label for="fname">First Name</label>
-            <input type="text" id="fname" placeholder="Your first name" required/>
+          <input type="text" id="fname" name="fname" placeholder="Your first name" required/>
           </div>
           <div class="form-row">
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" placeholder="Your last name"/>
+            <input type="text" id="lname" name="lname" placeholder="Your last name"/>
           </div>
         </div>
         <div class="form-two">
           <div class="form-row">
             <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" placeholder="(619) 555-0000" required/>
+            <input type="tel" id="phone" name="phone" placeholder="(661) 470-8315" required/>
           </div>
           <div class="form-row">
             <label for="email">Email Address</label>
-            <input type="email" id="email" placeholder="you@example.com"/>
+            <input type="email" id="email" name="email" placeholder="you@example.com"/>
           </div>
         </div>
         <div class="form-row">
@@ -372,15 +372,15 @@
         </div>
         <div class="form-row">
           <label for="notes">Anything else you'd like us to know?</label>
-          <textarea id="notes" rows="3" placeholder="Describe your items, estimated quantity, or ask a question..."></textarea>
+          <textarea id="notes" name="message" rows="3" placeholder="..."></textarea>
         </div>
-        <button class="btn-primary form-submit" onclick="submitForm()">Request My Free Appraisal →</button>
+        <button type="submit" class="btn-primary form-submit">
         <p class="form-privacy">🔒 Your info stays private. We never sell or share your data. No spam, ever.</p>
       </div>
     </div>
   </div>
 </section>
-
+</form>
 <!-- CTA BANNER -->
 <div class="cta-banner">
   <h2>Prefer to Call? We're Ready.</h2>
